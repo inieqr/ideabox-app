@@ -1,0 +1,7 @@
+CREATE TABLE ideas (
+    id SERIAL PRIMARY KEY,
+    text TEXT NOT NULL,
+    tag VARCHAR(255),
+    username VARCHAR(255),
+    date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
